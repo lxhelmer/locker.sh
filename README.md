@@ -7,7 +7,8 @@ The script excpects the default policy to reject or atleast not "apply-policy".
 Some changes to usbguard sudo rules might be relevant.
 The script does not take into account white/blacklisting of devices
 
-## BE AWARE. Setting the InsertedDevicePolicy to reject might cause problems if no input device is
+## BE AWARE
+Setting the InsertedDevicePolicy to reject might cause problems if no input device is
 connected when usbguard is loading. For me it has not been a problem with laptop and devices connected before
 booting have been unaffected by the script and the default policy.
 
