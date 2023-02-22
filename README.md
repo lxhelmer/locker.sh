@@ -31,7 +31,4 @@ else
 	sleep 5s
 	sh ./locker.sh
 fi
-
-
-
 ```
