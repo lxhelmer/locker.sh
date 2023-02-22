@@ -1,4 +1,4 @@
-#locker.sh
+# locker.sh
 Simple script to make usb connectable for short period.
 
 The code toggles the InsertedDevicePolicy allowing new connections.
@@ -11,6 +11,8 @@ The script does not take into account white/blacklisting of devices
 Setting the InsertedDevicePolicy to reject might cause problems if no input device is
 connected when usbguard is loading. For me it has not been a problem with laptop and devices connected before
 booting have been unaffected by the script and the default policy.
+
+## The script
 
 
 ```shell
