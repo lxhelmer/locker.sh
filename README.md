@@ -1,5 +1,6 @@
 # locker.sh
 Simple script to make usb connectable for short period.
+This script is a simple controller for [USBGuard](https://usbguard.github.io/). and will not work without it.
 
 The code toggles the InsertedDevicePolicy allowing new connections.
 After some time, 5s in the gh version the mode is toggled back to reject.
