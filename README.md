@@ -15,6 +15,9 @@ Setting the InsertedDevicePolicy to reject might cause problems if no input devi
 connected when usbguard is loading. For me it has not been a problem with laptop and devices connected before
 booting have been unaffected by the script and the default policy.
 
+Also setting systemwide block policies can affect things like bluetooth. Avoid the headache and keep this in mind if after an update
+eg. bluetooth no more works.
+
 ## The script
 
 
