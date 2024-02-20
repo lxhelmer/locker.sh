@@ -4,7 +4,7 @@ Simple script to make usb connectable for short period.
 This script is a simple controller for [USBGuard](https://usbguard.github.io/) and will not work without it.
 
 The code toggles the InsertedDevicePolicy allowing new connections.
-After some time, 5s in the gh version the mode is toggled back to reject. In my own experimentation the 5s was not enough and I ended up
+After some time, 5s in the github version the mode is toggled back to reject. In my own experimentation the 5s was not enough and I ended up
 using 10s sleep function.
 The script excpects the default policy to reject or atleast not "apply-policy".
 Some changes to usbguard sudo rules might be relevant.
