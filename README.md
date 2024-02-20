@@ -1,4 +1,4 @@
-# locker.sh 
+# locker.sh <img src="DALL·E 2023-02-23 10.55.04.png" alt="drawing" width="30"/>
 
 Simple script to make usb connectable for short period.
 This script is a simple controller for [USBGuard](https://usbguard.github.io/) and will not work without it.
